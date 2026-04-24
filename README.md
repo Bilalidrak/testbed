@@ -1,4 +1,4 @@
-bashcat > /root/FreeSwitch_Implement_scripts/README_testbed.md << 'EOF'
+
 # FreeSWITCH Testbed
 
 A load testing and disposition validation framework for FreeSWITCH-based call systems.
@@ -149,11 +149,4 @@ pm2 start "python3 -m consumer.test_bed_consumer" --name test-bed-consumer
 ## Developed By
 Bilal Waheed — Junior DevOps Engineer, IDRAK AI (Botmatic Team)
 EOF
-Ab GitHub pe push karo directly from local:
-bash# Local machine pe
-cd ~/path/to/testbed/repo
-cp /path/to/README_testbed.md README.md
-git add README.md
-git commit -m "Add comprehensive README"
-git push
-🎯
+
